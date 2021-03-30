@@ -4,11 +4,10 @@
 - `Definition:`  A sequence of any characters, wrapped in quotes (single or double)
 
 - `Proper Syntax, via Example Variables: `
-
-      ```ruby
-      ski_area = 'winter park'
-      vacation_spot = 'mexico'
-      ```
+        ```ruby
+        ski_area = 'winter park'
+        vacation_spot = 'mexico'
+        ```
 
 ### Integer & Float
 - `Definitions: `
