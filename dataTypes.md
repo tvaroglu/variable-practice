@@ -1,14 +1,15 @@
 ## Session 4 - Data Types in Ruby
 
 ### Strings
-- `Definition:`  A sequence of any characters, wrapped in quotes (single or double)
+- `Definition:`  A sequence of any characters, wrapped in quotes (single or double). Interpolation requires double quotes, for the interpreter to recognize the injected variables.
 
 - `Proper Syntax, via Example Variables: `
 
 
     ```ruby
     ski_area = 'winter park'
-    vacation_spot = 'mexico'
+    vacation_spot = "mexico"
+    a_fun_year = "This year I was lucky enough to go to both #{ski_area} and #{vacation_spot}!"
     ```
 
 ### Integer & Float
@@ -51,7 +52,7 @@
 
 - `Proper Syntax, via Example Variables: `
     ```ruby
-    # `old school` syntax
+    # 'old school' syntax
     my_fav_teams = {
       :football=>'broncos',
       :hockey=>'avalanche'
