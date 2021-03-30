@@ -51,8 +51,15 @@
 
 - `Proper Syntax, via Example Variables: `
     ```ruby
+    # `old school` syntax
     my_fav_teams = {
       :football=>'broncos',
       :hockey=>'avalanche'
+    }
+
+    # JSON style syntax
+    my_new_obj = {
+      key1: 'value1',
+      key2: 'value2'
     }
     ```
